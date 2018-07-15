@@ -6,6 +6,11 @@
 Welcome to pythonic_documentation's documentation!
 ==================================================
 
+.. image:: https://readthedocs.org/projects/pythonic-documentation/badge/?version=latest
+    :target: https://pythonic-documentation.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
