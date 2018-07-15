@@ -15,8 +15,11 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))
-print(sys.path.insert)
-#sys.path.insert(0, os.path.abspath('..\\src\\'))
+
+from shutil import copy
+from pathlib import Path
+from_path = (Path(".") / "../README.md" ).resolve().__str__()
+copy(from_path, '.')
 
 source_parsers = {
    '.md': 'recommonmark.parser.CommonMarkParser',

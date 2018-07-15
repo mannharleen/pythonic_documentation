@@ -1,5 +1,5 @@
 @ECHO OFF
-if exist "..\README.md" (COPY /Y ..\README.md README.md)
+Rem if exist "..\README.md" (COPY /Y ..\README.md README.md)
 
 pushd %~dp0
 
